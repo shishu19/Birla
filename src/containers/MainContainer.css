@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 3rem; 
+    height: 70vh;
+    box-sizing: border-box;
+    border-left: 3px solid black; 
+    border-bottom: 3px solid black;
+    width: 80vw;
+    margin-left: 1rem;
+    position: relative;
+}
+
+.x-axis {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 18vw; 
+    margin-top: -2rem
+}
+
+.y-axis { 
+    display: flex;
+    transform: rotate(-90deg) ;
+    align-items: center; 
+    width: fit-content;
+    height: fit-content; 
+    margin-top: 70px; 
+    min-width: 45px;
+}
+
+.y-axis-container { 
+    display: flex;
+    position: relative;
+}
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0; 
+    display: inline-block;
+    padding: 3px;
+    position: absolute;
+    left: -6px;
+    top: -2px;
+}
+
+.up {
+    transform: rotate(-135deg) ;
+    -webkit-transform: rotate(-135deg) ;
+}

@@ -1,0 +1,15 @@
+.semi-circle-container {
+    display: flex;
+    justify-content: center; 
+    box-sizing: border-box;
+    position: absolute;
+}
+.semi-circle {
+    display: inline-flex;
+    justify-content: center;
+    background-color: rgb(228, 148, 29);
+}    
+.message-text {
+    margin-top: 1vw; 
+    font-size: 0.8rem;
+}
